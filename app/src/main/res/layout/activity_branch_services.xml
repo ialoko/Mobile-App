@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/serviceTitle"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="AVAILABLE SERVICES"
+            android:textSize="18sp" />
+
+
+        <CheckBox
+            android:id="@+id/carCheckBox"
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Car Rental"
+            android:textSize="16sp" />
+
+
+        <CheckBox
+            android:id="@+id/truckCheckBox"
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Truck Rental"
+            android:textSize="16sp" />
+
+
+        <CheckBox
+            android:id="@+id/movingCheckBox"
+            android:layout_width="259dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Moving Assistance"
+            android:textSize="16sp" />
+
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="160dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="SUBMIT" />
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

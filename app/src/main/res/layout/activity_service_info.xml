@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServiceInfo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Service info for car rental-->
+            <TextView
+                android:id="@+id/serviceCar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Car Rental Service" />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Price ($/hour): " />
+
+            <EditText
+                android:id="@+id/priceCarRental"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="$/hour"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/buttonCar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Switch
+                android:id="@+id/firstNameCar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="First Name" />
+
+            <Switch
+                android:id="@+id/lastNameCar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="Last Name" />
+
+            <Switch
+                android:id="@+id/dobCar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="Date of birth" />
+
+            <Switch
+                android:id="@+id/addressCar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="Address" />
+
+            <Switch
+                android:id="@+id/emailCar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="Email" />
+
+            <Switch
+                android:id="@+id/licenseTypeCar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="License Type" />
+
+            <Switch
+                android:id="@+id/carType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="Car Type" />
+
+            <Switch
+                android:id="@+id/pickupDateCar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="Pickup date" />
+
+            <Switch
+                android:id="@+id/pickupTimeCar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="Pickup time" />
+
+            <Switch
+                android:id="@+id/returnDateCar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="Return date" />
+
+            <Switch
+                android:id="@+id/returnTimeCar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="Return time" />
+            <Button
+                android:id="@+id/editCar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Edit Service" />
+
+
+            <!-- Service Info for Truck Rental-->
+            <TextView
+                android:id="@+id/serviceTruck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Truck Rental Service" />
+
+            <TextView
+                android:id="@+id/price2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Price ($/hour): " />
+
+            <EditText
+                android:id="@+id/priceTruckRental"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="$/hour"
+                android:inputType="textPersonName" />
+
+
+            <Button
+                android:id="@+id/buttonTruck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Switch
+                android:id="@+id/firstNameTruck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Name" />
+
+            <Switch
+                android:id="@+id/lastNameTruck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last Name" />
+
+            <Switch
+                android:id="@+id/dobTruck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date of birth" />
+
+            <Switch
+                android:id="@+id/addressTruck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address" />
+
+            <Switch
+                android:id="@+id/emailTruck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email" />
+
+            <Switch
+                android:id="@+id/licenseTypeTruck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="License Type" />
+
+            <Switch
+                android:id="@+id/pickupDateTruck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pickup date" />
+
+            <Switch
+                android:id="@+id/pickupTimeTruck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pickup time" />
+
+            <Switch
+                android:id="@+id/returnDateTruck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Return date" />
+
+            <Switch
+                android:id="@+id/returnTimeTruck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Return time" />
+
+            <Switch
+                android:id="@+id/maxkm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Max km driven" />
+
+            <Switch
+                android:id="@+id/areaUsed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Provincial Area Used" />
+
+            <Button
+                android:id="@+id/editTruck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Edit Service" />
+
+
+            <!-- Service info for moving assistance-->
+            <TextView
+                android:id="@+id/serviceMoving"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Moving Assistance Service" />
+
+            <TextView
+                android:id="@+id/price3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Price ($/hour): " />
+
+            <EditText
+                android:id="@+id/priceMovingAssistance"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="$/hour"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/buttonMoving"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Switch
+                android:id="@+id/firstNameMoving"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Name" />
+
+            <Switch
+                android:id="@+id/lastNameMoving"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last Name" />
+
+            <Switch
+                android:id="@+id/dobMoving"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date of birth" />
+
+            <Switch
+                android:id="@+id/addressMoving"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address" />
+
+            <Switch
+                android:id="@+id/emailMoving"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email" />
+
+            <Switch
+                android:id="@+id/startLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Location" />
+
+            <Switch
+                android:id="@+id/endLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="End Location" />
+
+            <Switch
+                android:id="@+id/numberMovers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number of Movers" />
+
+            <Switch
+                android:id="@+id/numBoxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number of Boxes" />
+
+            <Button
+                android:id="@+id/editMoving"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Edit Service" />
+
+            <Button
+                android:id="@+id/backBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Back to Admin View" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

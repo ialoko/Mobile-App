@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/branchTitle"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:text="BRANCH DESCRIPTION"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/descriptionHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address Format: \nUnit, Street Name, City, Province, Postal Code, Country"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:id="@+id/branchAddress"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Address" />
+
+
+        <EditText
+            android:id="@+id/branchPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:minHeight="50dp"
+            android:hint="Phone Number" />
+
+
+        <Button
+            android:id="@+id/btnChanges"
+            android:layout_width="160dp"
+            android:layout_height="71dp"
+            android:layout_gravity="center"
+            android:text="Submit Changes"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.184"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/branchPhone" />
+
+        <Button
+            android:id="@+id/btnBackTo"
+            android:layout_width="110dp"
+            android:layout_height="58dp"
+            android:text="Back"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.184"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnChanges" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "46907944774",
+    "project_id": "project40-b7354",
+    "storage_bucket": "project40-b7354.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46907944774:android:8da9b2fa8325d09b07bf47",
+        "android_client_info": {
+          "package_name": "com.uottawa.emilybonneville.seg2105_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46907944774-he0pcaodqt6t5g86cutbkmjjr4njm3mt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3dpLTzOZ_XGlLncdhPbpq3teAoFy6GaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46907944774-he0pcaodqt6t5g86cutbkmjjr4njm3mt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

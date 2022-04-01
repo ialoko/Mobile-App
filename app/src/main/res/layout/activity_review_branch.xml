@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/reviewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="97dp"
+            android:gravity="left"
+            android:text="     Leave a Review:"
+            android:textColor="#ee283c"
+            android:textSize="28sp" />
+
+
+        <AutoCompleteTextView
+            android:id="@+id/branchName"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:ems="10"
+            android:hint="      Enter the branch you would like to rate"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/branchRate"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="      Your rating / 5"
+            android:textSize="23sp" />
+
+        <EditText
+            android:id="@+id/branchComment"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Leave  a comment"
+            android:textSize="23sp" />
+
+
+        <Button
+            android:id="@+id/btnSubmitReview"
+            android:layout_width="355dp"
+            android:layout_height="58dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Submit review"
+            android:textColor="#ee283c" />
+
+
+        <Button
+            android:id="@+id/btnBackFromReview"
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:text="Back" />
+
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

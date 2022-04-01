@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">SEG2105_project</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="username">username</string>
+    <string name="confirmpassword">confirm password</string>
+    <string name="login">login</string>
+    <string name="register">register</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnAccount">Create Account</string>
+    <string name="enterUserPass">Enter your username and password</string>
+    <string name="password">(password)</string>
+    <string name="Login">LOGIN</string>
+    <string name="Username">Username</string>
+    <string name="backFromLogin">BACK</string>
+    <string name="You_are_logged_in_as_an_employee">stringy</string>
+    <string name="passwordCheck">Username and password do not match</string>
+    <string name="request">Request</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="address">Address</string>
+    <string name="email">Email</string>
+    <string name="startLocation">Start Location</string>
+    <string name="endLocation">End Location</string>
+    <string name="numberMovers">Number of Movers</string>
+    <string name="numberBoxes">Number of Boxes</string>
+    <string name="dob">Date of Birth: YYYY/MM/DD</string>
+    <string name="movingAssistance">Moving Assistance Request</string>
+    <string name="carRental">Car Rental Request</string>
+    <string name="truckRental">Truck Rental Request</string>
+    <string name="pickupdate">Pickup: YYYY/MM/DD</string>
+    <string name="pickuptime">Pickup: time 24hr format</string>
+    <string name="returndate">Return: YYYY/MM/DD</string>
+    <string name="returntime">Return: time 24hr format</string>
+    <string name="maxDistance">Max km</string>
+    <string name="areaUsed">Provincial Area</string>
+    <string name="title_activity_welcome_page_employee">WelcomePageEmployee</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_branch_hours">BranchHours</string>
+</resources>
